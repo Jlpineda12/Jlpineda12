@@ -58,6 +58,9 @@ Mi trabajo une el **Desarrollo de Videojuegos**, la **Computación Gráfica 3D**
 - <img src="./assets/icons/controller.svg" width="16" height="16" valign="middle" /> [**LingoPulse — 3D Tamagotchi & English Simulator**](https://github.com/Jlpineda12/lingopulse)  
   *App móvil y web (Expo + React Native) gamificada para practicar inglés con una mascota 3D interactiva en tiempo real (`expo-gl` / Three.js). Cuenta con creador de personajes procedimental estilo Mii, 72 islas de progreso por niveles (A1–C2), motor de corrección de pronunciación y feedback inteligente con IA + Supabase.*
 
+- <img src="./assets/icons/controller.svg" width="16" height="16" valign="middle" /> [**Pixel Combat Arcade 1984 — 1v1 Retro Fighter**](https://github.com/Jlpineda12/pixel-combat-arcade) &nbsp; [![Play Live](https://img.shields.io/badge/🥊%20Play%20Live-GitHub%20Pages-ff334b?style=flat-square)](https://jlpineda12.github.io/pixel-combat-arcade/)  
+  *Videojuego de lucha arcade 1v1 retro estilo Street Fighter con físicas completas (hitboxes, hurtboxes, bloqueos de guardia, proyectiles especiales "Hadouken" y K.O. con hit-stop). Incorpora banda sonora de combate a 144 BPM y SFX procedimentales con Web Audio API y CPU rival con IA reactiva.*
+
 - <img src="./assets/icons/snake.svg" width="16" height="16" valign="middle" /> [**Pixel Snake Arcade 1984 — Chiptune Edition**](https://github.com/Jlpineda12/pixel-snake-arcade) &nbsp; [![Play Live](https://img.shields.io/badge/🎮%20Play%20Live-GitHub%20Pages-00f5d4?style=flat-square)](https://jlpineda12.github.io/pixel-snake-arcade/)  
   *Videojuego arcade retro de Snake inspirado en los gabinetes de 1984. Cuenta con síntesis de música chiptune generada 100% procedimentalmente en tiempo real (Web Audio API), menú retro con filtro CRT scanlines, sistema de combos, frutas doradas con cuenta regresiva, selector de paletas (Game Boy, Cyber Neon, PICO-8, Synthwave) y controles móviles táctiles.*
 
