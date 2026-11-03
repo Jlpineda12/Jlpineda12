@@ -46,7 +46,7 @@
     </pattern>
   </defs>
 
-  <!-- Banner Background (Azul Clarito Vibrante) -->
+  <!-- Banner Background (Azul Clarito) -->
   <rect x="2" y="2" width="846" height="216" rx="18" fill="url(#skyGrad)" stroke="#38bdf8" stroke-width="1.5" />
 
   <!-- Video Game Texture Overlay -->
@@ -89,30 +89,30 @@
   <!-- Animated Cycling Roles & Status (Native SMIL Animations) -->
   <g transform="translate(60, 142)">
 
-    <!-- Slide 1: Game Dev Focus -->
+    <!-- Slide 1: Ingeniería en Multimedia Colombia -->
     <g>
-      <animate attributeName="opacity" values="1;1;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.97;0.98;0.99;0.999;1" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.97;0.98;0.99;0.999;1" dur="15s" repeatCount="indefinite" />
+      <text x="0" y="0" fill="#ffffff" font-family="'SF Mono', Monaco, Menlo, monospace" font-size="14" font-weight="800" letter-spacing="0.5">🎓 INGENIERÍA EN MULTIMEDIA • COLOMBIA 🇨🇴</text>
+      <text x="0" y="24" fill="#082f49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">Desarrollo de Videojuegos • Computación Gráfica 3D • Inteligencia Artificial Aplicada</text>
+    </g>
+
+    <!-- Slide 2: Game Dev Focus -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.24;0.26;0.48;0.51;0.98;0.99;1" dur="15s" repeatCount="indefinite" />
       <text x="0" y="0" fill="#ffffff" font-family="'SF Mono', Monaco, Menlo, monospace" font-size="14" font-weight="800" letter-spacing="0.5">🎮 VIDEO GAME DEVELOPMENT &amp; REAL-TIME 3D</text>
-      <text x="0" y="24" fill="#0c4a6e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">Unreal Engine • Unity • C++ &amp; C# • Autodesk Maya • Shaders &amp; Mecánicas Interactivas</text>
+      <text x="0" y="24" fill="#082f49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">Unreal Engine • Unity • C++ &amp; C# • Autodesk Maya • Shaders &amp; Mecánicas Interactivas</text>
     </g>
 
-    <!-- Slide 2: AI & Deep Learning -->
+    <!-- Slide 3: AI & Deep Learning -->
     <g opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.24;0.26;0.48;0.51;0.98;0.99;1" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.49;0.51;0.73;0.76;0.98;0.99;1" dur="15s" repeatCount="indefinite" />
       <text x="0" y="0" fill="#ffffff" font-family="'SF Mono', Monaco, Menlo, monospace" font-size="14" font-weight="800" letter-spacing="0.5">🧠 DEEP LEARNING &amp; MULTIMEDIA AI</text>
-      <text x="0" y="24" fill="#0c4a6e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">Reconocimiento Acústico (CNN &amp; RNN) • Espectrogramas de Audio • Modelos NLP con TensorFlow</text>
-    </g>
-
-    <!-- Slide 3: Computación Gráfica -->
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.49;0.51;0.73;0.76;0.98;0.99;1" dur="14s" repeatCount="indefinite" />
-      <text x="0" y="0" fill="#ffffff" font-family="'SF Mono', Monaco, Menlo, monospace" font-size="14" font-weight="800" letter-spacing="0.5">📐 COMPUTACIÓN GRÁFICA &amp; THREE.JS</text>
-      <text x="0" y="24" fill="#0c4a6e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">WebGL • Matrices de Transformación 3D • Proyecciones de Cámara • Generación de Mallas</text>
+      <text x="0" y="24" fill="#082f49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">Reconocimiento Acústico (CNN &amp; RNN) • Espectrogramas de Audio • Modelos NLP con TensorFlow</text>
     </g>
 
     <!-- Slide 4: Active Development / Snake Game -->
     <g opacity="0">
-      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.74;0.75;0.76;0.77;0.97;0.99;1" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.74;0.75;0.76;0.77;0.97;0.99;1" dur="15s" repeatCount="indefinite" />
       <text x="0" y="0" fill="#ffffff" font-family="'SF Mono', Monaco, Menlo, monospace" font-size="14" font-weight="800" letter-spacing="0.5">🚀 EN DESARROLLO ACTIVO: VIDEOJUEGO SNAKE</text>
       <text x="0" y="24" fill="#082f49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14">Construyendo videojuego interactivo • Nuevos proyectos y lanzamientos próximamente 🎮</text>
     </g>

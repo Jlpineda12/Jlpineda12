@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- Banner Animado en Azul Clarito con Textura Gamer Nativa -->
+  <!-- Banner Animado en Azul Clarito con Textura Gamer y Texto Dinámico -->
   <img src="./assets/banner.svg" alt="Jose Luis Pineda Barrera - Game Dev & Multimedia" width="100%" />
 
   <br/><br/>
@@ -23,20 +23,20 @@
 
 ---
 
-### 👨‍💻 Sobre Mí / About Me
+### <img src="./assets/icons/multimedia.svg" width="20" height="20" valign="middle" /> Sobre Mí / About Me
 
-¡Hola! Soy **Jose Luis Pineda Barrera**, profesional y apasionado por la **Ingeniería en Multimedia**.
+¡Hola! Soy **Jose Luis Pineda Barrera**, profesional y apasionado por la **Ingeniería en Multimedia en Colombia 🇨🇴**.
 
 Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Computación Gráfica 3D interactiva** y la **Inteligencia Artificial (Deep Learning)** aplicada a audio, visión y sistemas multimedia.
 
-- 🎮 **Desarrollo de Videojuegos & 3D**: Diseño y programación de mecánicas, físicas, shaders y lógica de juego en **Unreal Engine** y **Unity** utilizando **C++** y **C#**, además de modelado y rigging en **Autodesk Maya**.
-- 📐 **Computación Gráfica en la Web**: Implementación de álgebra y transformaciones matriciales 3D, proyecciones de cámara, mallas paramétricas y renderizado en tiempo real con **Three.js** y **WebGL**.
-- 🧠 **Inteligencia Artificial en Multimedia**: Modelos de Deep Learning (CNNs, RNNs, LSTMs) para clasificación y análisis acústico (Melodía AI) y modelos de lenguaje natural con TensorFlow.
-- 🐍 **Proyecto en Desarrollo Activo**: Actualmente programando un videojuego **Snake interactivo**, optimizando mecánicas de juego y visuales. ¡Pronto estaré subiendo nuevos repositorios y proyectos de videojuegos al perfil!
+- <img src="./assets/icons/controller.svg" width="18" height="18" valign="middle" /> **Desarrollo de Videojuegos & 3D**: Diseño y programación de mecánicas, físicas, shaders y lógica de juego en **Unreal Engine** y **Unity** utilizando **C++** y **C#**, además de modelado y rigging en **Autodesk Maya**.
+- <img src="./assets/icons/cube3d.svg" width="18" height="18" valign="middle" /> **Computación Gráfica en la Web**: Implementación de álgebra y transformaciones matriciales 3D, proyecciones de cámara, mallas paramétricas y renderizado en tiempo real con **Three.js** y **WebGL**.
+- <img src="./assets/icons/neural.svg" width="18" height="18" valign="middle" /> **Inteligencia Artificial en Multimedia**: Modelos de Deep Learning (CNNs, RNNs, LSTMs) para clasificación y análisis acústico (Melodía AI) y modelos de lenguaje natural con TensorFlow.
+- <img src="./assets/icons/snake.svg" width="18" height="18" valign="middle" /> **Proyecto en Desarrollo Activo**: Actualmente programando un videojuego **Snake interactivo**, optimizando mecánicas de juego y visuales. ¡Pronto estaré subiendo nuevos repositorios y proyectos de videojuegos al perfil!
 
 ---
 
-### 🛠️ Stack Tecnológico / Tech Stack
+### <img src="./assets/icons/tools.svg" width="20" height="20" valign="middle" /> Stack Tecnológico / Tech Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=unity,unreal,cpp,cs,py,tensorflow,js,ts,nodejs,express,flask,html,css,tailwind,prisma,git,github,postman&perline=9" alt="Tech Stack" />
@@ -60,12 +60,12 @@ Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Co
 
 ---
 
-### 🚀 Proyectos Destacados / Featured Projects
+### <img src="./assets/icons/controller.svg" width="20" height="20" valign="middle" /> Proyectos Destacados / Featured Projects
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">🐍 Snake Game (En Desarrollo)</h3>
+      <h3 align="center"><img src="./assets/icons/snake.svg" width="20" height="20" valign="middle" /> Snake Game (En Desarrollo)</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Status-Active%20Development-0284c7?style=flat-square" />
         <img src="https://img.shields.io/badge/Game%20Dev-Interactive-0284c7?style=flat-square" />
@@ -78,7 +78,7 @@ Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Co
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">🎵 Melodía AI</h3>
+      <h3 align="center"><img src="./assets/icons/soundwave.svg" width="20" height="20" valign="middle" /> Melodía AI</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Deep%20Learning-CNN%20%2B%20RNN-0284c7?style=flat-square" />
         <img src="https://img.shields.io/badge/Web%20Audio-Tailwind-0284c7?style=flat-square" />
@@ -93,7 +93,7 @@ Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Co
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">🎮 GameVault API</h3>
+      <h3 align="center"><img src="./assets/icons/controller.svg" width="20" height="20" valign="middle" /> GameVault API</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Node.js-Express-0284c7?style=flat-square&logo=node.js&logoColor=white" />
         <img src="https://img.shields.io/badge/Prisma-SQLite-0284c7?style=flat-square&logo=prisma&logoColor=white" />
@@ -106,7 +106,7 @@ Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Co
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">✍️ NeuroText AI</h3>
+      <h3 align="center"><img src="./assets/icons/neural.svg" width="20" height="20" valign="middle" /> NeuroText AI</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/NLP-TensorFlow-0284c7?style=flat-square&logo=tensorflow&logoColor=white" />
         <img src="https://img.shields.io/badge/Flask-API-0284c7?style=flat-square&logo=flask&logoColor=white" />
@@ -122,7 +122,7 @@ Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Co
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">📈 Time Series Forecasting</h3>
+      <h3 align="center"><img src="./assets/icons/chart.svg" width="20" height="20" valign="middle" /> Time Series Forecasting</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/LSTM-Bi--LSTM-0284c7?style=flat-square" />
         <img src="https://img.shields.io/badge/Jupyter-Notebook-0284c7?style=flat-square&logo=jupyter&logoColor=white" />
@@ -135,7 +135,7 @@ Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Co
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">📐 Three.js & 3D Graphics Lab</h3>
+      <h3 align="center"><img src="./assets/icons/cube3d.svg" width="20" height="20" valign="middle" /> Three.js & 3D Graphics Lab</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Three.js-WebGL-0284c7?style=flat-square&logo=three.js&logoColor=white" />
         <img src="https://img.shields.io/badge/Math-3D%20Transforms-0284c7?style=flat-square" />
@@ -152,7 +152,7 @@ Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Co
 
 ---
 
-### 📊 Actividad en Tiempo Real
+### <img src="./assets/icons/chart.svg" width="20" height="20" valign="middle" /> Actividad en Tiempo Real
 
 <div align="center">
 
@@ -165,7 +165,7 @@ Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Co
 
 ---
 
-### 🎮 Juego de la Serpiente / Contribution Activity
+### <img src="./assets/icons/snake.svg" width="20" height="20" valign="middle" /> Juego de la Serpiente / Contribution Activity
 
 <div align="center">
 
