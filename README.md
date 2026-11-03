@@ -1,22 +1,22 @@
 <div align="center">
 
-  <!-- Banner Animado Nativo y Confiable (Sin dependencias externas) -->
-  <img src="./assets/banner.svg" alt="Jose Luis Pineda Barrera Banner" width="100%" />
+  <!-- Banner Animado en Azul Clarito con Textura Gamer Nativa -->
+  <img src="./assets/banner.svg" alt="Jose Luis Pineda Barrera - Game Dev & Multimedia" width="100%" />
 
   <br/><br/>
 
-  <!-- Badges de Estado y Perfil -->
+  <!-- Badges de Estado y Perfil en Azul Celeste -->
   <a href="https://github.com/Jlpineda12">
-    <img src="https://komarev.com/ghpvc/?username=Jlpineda12&color=6366f1&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=Jlpineda12&color=0284c7&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
   </a>
   <a href="https://github.com/Jlpineda12?tab=repositories">
-    <img src="https://img.shields.io/badge/Focus-Game%20Dev%20%26%20AI-f43f5e?style=flat-square" alt="Focus" />
+    <img src="https://img.shields.io/badge/Focus-Game%20Dev%20%26%20Multimedia-0284c7?style=flat-square" alt="Focus" />
   </a>
   <a href="mailto:alejandro.pineda@utscd.com.co">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-0284c7?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/Jlpineda12?tab=followers">
-    <img src="https://img.shields.io/github/followers/Jlpineda12?label=Followers&style=flat-square&color=38bdf8" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/Jlpineda12?label=Followers&style=flat-square&color=0284c7" alt="Followers" />
   </a>
 
 </div>
@@ -25,14 +25,14 @@
 
 ### 👨‍💻 Sobre Mí / About Me
 
-¡Hola! Soy **Jose Luis Pineda Barrera**, estudiante y profesional de **Ingeniería en Multimedia** de la **Universidad Militar Nueva Granada (UMNG)** en **Bogotá, Colombia 🇨🇴**.
+¡Hola! Soy **Jose Luis Pineda Barrera**, profesional y apasionado por la **Ingeniería en Multimedia**.
 
-Mi trabajo combina el **Desarrollo de Videojuegos**, la **Computación Gráfica 3D en tiempo real** y la **Inteligencia Artificial (Deep Learning)** aplicada al procesamiento de señales, audio y entornos interactivos.
+Mi enfoque principal está centrado en el **Desarrollo de Videojuegos**, la **Computación Gráfica 3D interactiva** y la **Inteligencia Artificial (Deep Learning)** aplicada a audio, visión y sistemas multimedia.
 
-- 🎮 **Desarrollo de Videojuegos & 3D**: Experiencia programando mecánicas, físicas, shaders y lógica de juego en **Unreal Engine** y **Unity**, utilizando **C++**, **C#**, además de modelado, texturizado y rigging en **Autodesk Maya**.
-- 📐 **Computación Gráfica**: Dominio de fundamentos matemáticos 3D, transformaciones espaciales matriciales, proyecciones de cámara y renderizado WebGL interactivo con **Three.js**.
-- 🧠 **Inteligencia Artificial en Multimedia**: Modelos de Deep Learning (CNNs, RNNs, LSTMs) para reconocimiento acústico y espectral (Melodía AI) y modelos de lenguaje natural (NLP).
-- 🐍 **Proyecto en Curso**: Actualmente desarrollando activamente un videojuego **Snake 3D / interactivo** con mecánicas renovadas. ¡Pronto se publicarán nuevos proyectos y repositorios en el perfil!
+- 🎮 **Desarrollo de Videojuegos & 3D**: Diseño y programación de mecánicas, físicas, shaders y lógica de juego en **Unreal Engine** y **Unity** utilizando **C++** y **C#**, además de modelado y rigging en **Autodesk Maya**.
+- 📐 **Computación Gráfica en la Web**: Implementación de álgebra y transformaciones matriciales 3D, proyecciones de cámara, mallas paramétricas y renderizado en tiempo real con **Three.js** y **WebGL**.
+- 🧠 **Inteligencia Artificial en Multimedia**: Modelos de Deep Learning (CNNs, RNNs, LSTMs) para clasificación y análisis acústico (Melodía AI) y modelos de lenguaje natural con TensorFlow.
+- 🐍 **Proyecto en Desarrollo Activo**: Actualmente programando un videojuego **Snake interactivo**, optimizando mecánicas de juego y visuales. ¡Pronto estaré subiendo nuevos repositorios y proyectos de videojuegos al perfil!
 
 ---
 
@@ -67,8 +67,8 @@ Mi trabajo combina el **Desarrollo de Videojuegos**, la **Computación Gráfica 
     <td width="50%">
       <h3 align="center">🐍 Snake Game (En Desarrollo)</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Status-Active%20Development-10b981?style=flat-square" />
-        <img src="https://img.shields.io/badge/Game%20Dev-Interactive-f43f5e?style=flat-square" />
+        <img src="https://img.shields.io/badge/Status-Active%20Development-0284c7?style=flat-square" />
+        <img src="https://img.shields.io/badge/Game%20Dev-Interactive-0284c7?style=flat-square" />
       </p>
       <p>
         Videojuego clásico <b>Snake reimaginado con mecánicas interactivas y visuales modernas</b>. Proyecto actualmente en construcción y desarrollo continuo como parte de nuevas experiencias de juego.
@@ -80,8 +80,8 @@ Mi trabajo combina el **Desarrollo de Videojuegos**, la **Computación Gráfica 
     <td width="50%">
       <h3 align="center">🎵 Melodía AI</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Deep%20Learning-CNN%20%2B%20RNN-f97316?style=flat-square" />
-        <img src="https://img.shields.io/badge/Web%20Audio-Tailwind-38bdf8?style=flat-square" />
+        <img src="https://img.shields.io/badge/Deep%20Learning-CNN%20%2B%20RNN-0284c7?style=flat-square" />
+        <img src="https://img.shields.io/badge/Web%20Audio-Tailwind-0284c7?style=flat-square" />
       </p>
       <p>
         Plataforma interactiva para el <b>reconocimiento y clasificación de patrones acústicos e instrumentos musicales</b> utilizando espectrogramas y redes neuronales convolucionales y recurrentes. Proyecto UMNG.
@@ -95,8 +95,8 @@ Mi trabajo combina el **Desarrollo de Videojuegos**, la **Computación Gráfica 
     <td width="50%">
       <h3 align="center">🎮 GameVault API</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=node.js&logoColor=white" />
-        <img src="https://img.shields.io/badge/Prisma-SQLite-2D3748?style=flat-square&logo=prisma&logoColor=white" />
+        <img src="https://img.shields.io/badge/Node.js-Express-0284c7?style=flat-square&logo=node.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/Prisma-SQLite-0284c7?style=flat-square&logo=prisma&logoColor=white" />
       </p>
       <p>
         <b>API RESTful y panel web</b> para la gestión y catalogación de biblioteca de videojuegos. Incluye filtrado por género/plataforma, tracking de estados de juego (Playing, Completed), estadísticas y migraciones con Prisma.
@@ -108,8 +108,8 @@ Mi trabajo combina el **Desarrollo de Videojuegos**, la **Computación Gráfica 
     <td width="50%">
       <h3 align="center">✍️ NeuroText AI</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/NLP-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-        <img src="https://img.shields.io/badge/Flask-API-000000?style=flat-square&logo=flask&logoColor=white" />
+        <img src="https://img.shields.io/badge/NLP-TensorFlow-0284c7?style=flat-square&logo=tensorflow&logoColor=white" />
+        <img src="https://img.shields.io/badge/Flask-API-0284c7?style=flat-square&logo=flask&logoColor=white" />
       </p>
       <p>
         Sistema de <b>predicción de texto en tiempo real</b> mediante Deep Learning. Microservicio Flask con modelo Keras y cliente web interactivo con interfaz Glassmorphism en Tailwind CSS.
@@ -124,8 +124,8 @@ Mi trabajo combina el **Desarrollo de Videojuegos**, la **Computación Gráfica 
     <td width="50%">
       <h3 align="center">📈 Time Series Forecasting</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/LSTM-Bi--LSTM-3b82f6?style=flat-square" />
-        <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+        <img src="https://img.shields.io/badge/LSTM-Bi--LSTM-0284c7?style=flat-square" />
+        <img src="https://img.shields.io/badge/Jupyter-Notebook-0284c7?style=flat-square&logo=jupyter&logoColor=white" />
       </p>
       <p>
         Benchmarking experimental de <b>Redes Neuronales Recurrentes</b> (MLP vs. LSTM vs. Bi-LSTM con BatchNormalization) para modelado y predicción de series de tiempo complejas.
@@ -137,8 +137,8 @@ Mi trabajo combina el **Desarrollo de Videojuegos**, la **Computación Gráfica 
     <td width="50%">
       <h3 align="center">📐 Three.js & 3D Graphics Lab</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Three.js-WebGL-000000?style=flat-square&logo=three.js&logoColor=white" />
-        <img src="https://img.shields.io/badge/Math-3D%20Transforms-6366f1?style=flat-square" />
+        <img src="https://img.shields.io/badge/Three.js-WebGL-0284c7?style=flat-square&logo=three.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/Math-3D%20Transforms-0284c7?style=flat-square" />
       </p>
       <p>
         Serie de 12 laboratorios prácticos de <b>Computación Gráfica</b>: transformaciones matriciales, proyecciones de cámara (ortográfica vs. perspectiva), constructores de poliedros y extrusión de mallas 3D.
@@ -152,11 +152,11 @@ Mi trabajo combina el **Desarrollo de Videojuegos**, la **Computación Gráfica 
 
 ---
 
-### 📊 Actividad y Estadísticas en Tiempo Real
+### 📊 Actividad en Tiempo Real
 
 <div align="center">
 
-  <!-- Tarjeta de Racha de Commits (Alta disponibilidad) -->
+  <!-- Tarjeta de Racha de Commits -->
   <a href="https://github.com/Jlpineda12">
     <img src="https://streak-stats.demolab.com/?user=Jlpineda12&theme=radical&hide_border=true&border_radius=10" alt="GitHub Streak Stats" />
   </a>
@@ -185,15 +185,11 @@ Mi trabajo combina el **Desarrollo de Videojuegos**, la **Computación Gráfica 
 <div align="center">
 
   <a href="mailto:alejandro.pineda@utscd.com.co">
-    <img src="https://img.shields.io/badge/Email-alejandro.pineda%40utscd.com.co-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-alejandro.pineda%40utscd.com.co-0284c7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Jlpineda12">
-    <img src="https://img.shields.io/badge/GitHub-Jlpineda12-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://bogota.gov.co/">
-    <img src="https://img.shields.io/badge/Location-Bogotá%2C%20Colombia%20🇨🇴-0284c7?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location" />
+    <img src="https://img.shields.io/badge/GitHub-Jlpineda12-0284c7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 
 </div>
