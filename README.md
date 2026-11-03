@@ -58,8 +58,8 @@ Mi trabajo une el **Desarrollo de Videojuegos**, la **Computación Gráfica 3D**
 - <img src="./assets/icons/controller.svg" width="16" height="16" valign="middle" /> [**LingoPulse — 3D Tamagotchi & English Simulator**](https://github.com/Jlpineda12/lingopulse)  
   *App móvil y web (Expo + React Native) gamificada para practicar inglés con una mascota 3D interactiva en tiempo real (`expo-gl` / Three.js). Cuenta con creador de personajes procedimental estilo Mii, 72 islas de progreso por niveles (A1–C2), motor de corrección de pronunciación y feedback inteligente con IA + Supabase.*
 
-- <img src="./assets/icons/snake.svg" width="16" height="16" valign="middle" /> **Snake Game (En Desarrollo)**  
-  *Videojuego clásico reimaginado con controles dinámicos y estética arcade moderna. Actualmente en construcción como parte del roadmap de videojuegos.*
+- <img src="./assets/icons/snake.svg" width="16" height="16" valign="middle" /> [**Pixel Snake Arcade 1984 — Chiptune Edition**](https://github.com/Jlpineda12/pixel-snake-arcade) &nbsp; [![Play Live](https://img.shields.io/badge/🎮%20Play%20Live-GitHub%20Pages-00f5d4?style=flat-square)](https://jlpineda12.github.io/pixel-snake-arcade/)  
+  *Videojuego arcade retro de Snake inspirado en los gabinetes de 1984. Cuenta con síntesis de música chiptune generada 100% procedimentalmente en tiempo real (Web Audio API), menú retro con filtro CRT scanlines, sistema de combos, frutas doradas con cuenta regresiva, selector de paletas (Game Boy, Cyber Neon, PICO-8, Synthwave) y controles móviles táctiles.*
 
 - <img src="./assets/icons/soundwave.svg" width="16" height="16" valign="middle" /> [**Melodía AI**](https://github.com/Jlpineda12/melodia-ai)  
   *Plataforma interactiva de clasificación de instrumentos musicales y patrones acústicos mediante CNN + RNN y Web Audio API en tiempo real.*

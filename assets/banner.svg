@@ -54,7 +54,7 @@
     <g opacity="0">
       <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.74;0.75;0.76;0.77;0.97;0.99;1" dur="15s" repeatCount="indefinite" />
       <text x="0" y="0" fill="#34d399" font-family="'SF Mono', Monaco, Menlo, Consolas, monospace" font-size="13.5" font-weight="500">
-        🚀 Proyecto en desarrollo: Videojuego Snake 3D interactivo
+        🕹️ Jugable: Pixel Snake Arcade 1984 • Audio Chiptune Procedural
       </text>
     </g>
   </g>
