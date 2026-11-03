@@ -1,121 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="100%" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="160">
   <defs>
-    <!-- Light Blue / Celeste / Sky Blue Gradient -->
-    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0284c7" />
-      <stop offset="35%" stop-color="#0ea5e9" />
-      <stop offset="75%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#7dd3fc" />
+    <!-- Minimalist Accent Gradient -->
+    <linearGradient id="neonSky" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
     </linearGradient>
 
-    <!-- Glowing Top Border Gradient -->
-    <linearGradient id="topGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#bae6fd" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.9" />
-    </linearGradient>
-
-    <!-- Glassmorphic Card Overlay Gradient -->
-    <linearGradient id="glassCard" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.08" />
-    </linearGradient>
-
-    <!-- Video Game Icons Pattern Texture (Pattern Repeating Seamlessly) -->
-    <pattern id="gamingTexture" width="140" height="110" patternUnits="userSpaceOnUse">
-      <!-- 1. Gamepad -->
-      <g transform="translate(10, 15) scale(0.9)" fill="#ffffff" fill-opacity="0.14">
-        <path d="M7 6h10a5 5 0 0 1 5 5v3a4 4 0 0 1-7 2.6L13.6 15H10.4L9 16.6A4 4 0 0 1 2 14v-3a5 5 0 0 1 5-5zm-1 4v2h2v1H6v2H5v-2H3v-1h2v-2h1zm12.5 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm4 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-      </g>
-      <!-- 2. Pixel Heart (Life / Health) -->
-      <g transform="translate(85, 12) scale(1.1)" fill="#ffffff" fill-opacity="0.15">
-        <path d="M2 1h3v2H2zm5 0h3v2H7zM0 3h12v3H0zm1 3h10v2H1zm2 2h6v2H3zm2 2h2v2H5z"/>
-      </g>
-      <!-- 3. Space Invader / Pixel Alien -->
-      <g transform="translate(20, 65) scale(1.1)" fill="#ffffff" fill-opacity="0.15">
-        <path d="M3 0h5v1H3zm-2 2h9v2H1zm-1 3h11v3H0zm1 4h2v2H1zm7 0h2v2H8zm-6-6h2v2H2zm6 0h2v2H8z"/>
-      </g>
-      <!-- 4. Retro Coin / Star -->
-      <g transform="translate(95, 68) scale(0.9)" fill="#ffffff" fill-opacity="0.16">
-        <path d="M4 0h3v2H4zm-4 4h2v3H0zm9 0h2v3H9zm-5 5h3v2H4zm-2-6h5v5H2z"/>
-      </g>
-      <!-- 5. Floating Pixel Diamond / Gem -->
-      <g transform="translate(60, 42) scale(0.8)" fill="#ffffff" fill-opacity="0.14">
-        <path d="M3 1h6l3 4-6 7-6-7z"/>
-      </g>
+    <!-- Subtle Clean Dot Matrix -->
+    <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#38bdf8" fill-opacity="0.12" />
     </pattern>
   </defs>
 
-  <!-- Banner Background (Azul Clarito) -->
-  <rect x="2" y="2" width="846" height="216" rx="18" fill="url(#skyGrad)" stroke="#38bdf8" stroke-width="1.5" />
+  <!-- Clean Minimalist Background blending with GitHub Dark -->
+  <rect width="850" height="160" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect width="850" height="160" rx="12" fill="url(#dotGrid)" />
 
-  <!-- Video Game Texture Overlay -->
-  <rect x="2" y="2" width="846" height="216" rx="18" fill="url(#gamingTexture)" />
+  <!-- Left Neon Accent Pill Indicator -->
+  <rect x="35" y="42" width="4" height="76" rx="2" fill="url(#neonSky)" />
 
-  <!-- Soft Ambient Glow Circles -->
-  <circle cx="120" cy="50" r="160" fill="#bae6fd" opacity="0.25" />
-  <circle cx="720" cy="160" r="140" fill="#ffffff" opacity="0.2" />
-
-  <!-- Top Glowing Accent Line -->
-  <rect x="2" y="2" width="846" height="4" rx="2" fill="url(#topGlow)" />
-
-  <!-- Center Floating Glass Panel Behind Content -->
-  <rect x="35" y="28" width="780" height="164" rx="14" fill="url(#glassCard)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.35" />
-
-  <!-- Decorative Gaming Corner Elements -->
-  <!-- Top Left: Arcade Controller Icon Floating -->
-  <g transform="translate(60, 48) scale(1.3)" fill="#ffffff" fill-opacity="0.9">
-    <path d="M7 6h10a5 5 0 0 1 5 5v3a4 4 0 0 1-7 2.6L13.6 15H10.4L9 16.6A4 4 0 0 1 2 14v-3a5 5 0 0 1 5-5zm-1 4v2h2v1H6v2H5v-2H3v-1h2v-2h1zm12.5 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm4 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3s" repeatCount="indefinite" />
-    </path>
-  </g>
-
-  <!-- Top Right: Pixel Heart Floating with Pulse -->
-  <g transform="translate(755, 48) scale(1.5)" fill="#ffffff">
-    <path d="M2 1h3v2H2zm5 0h3v2H7zM0 3h12v3H0zm1 3h10v2H1zm2 2h6v2H3zm2 2h2v2H5z">
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite" />
-      <animateTransform attributeName="transform" type="scale" values="1.5; 1.6; 1.5" dur="1.8s" repeatCount="indefinite" />
-    </path>
-  </g>
-
-  <!-- Name Header (Bold, Clean, High Contrast) -->
-  <text x="105" y="82" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="34" letter-spacing="-0.5" filter="drop-shadow(0 2px 8px rgba(3, 105, 161, 0.5))">
-    JOSE LUIS PINEDA BARRERA
+  <!-- Main Name Title (Minimalist, Clean Typography) -->
+  <text x="55" y="74" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-weight="700" font-size="30" letter-spacing="-0.5">
+    Jose Luis Pineda Barrera
   </text>
 
-  <!-- Divider Line -->
-  <line x1="60" y1="108" x2="790" y2="108" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.35" stroke-dasharray="6 4" />
-
-  <!-- Animated Cycling Roles & Status (Native SMIL Animations) -->
-  <g transform="translate(60, 142)">
-
-    <!-- Slide 1: Ingeniería en Multimedia Colombia -->
+  <!-- Animated Clean Subtitle (Pure SVG SMIL) -->
+  <g transform="translate(55, 104)">
+    <!-- Slide 1: Ingenieria en Multimedia Colombia -->
     <g>
-      <animate attributeName="opacity" values="1;1;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.97;0.98;0.99;0.999;1" dur="15s" repeatCount="indefinite" />
-      <text x="0" y="0" fill="#ffffff" font-family="'SF Mono', Monaco, Menlo, monospace" font-size="14" font-weight="800" letter-spacing="0.5">🎓 INGENIERÍA EN MULTIMEDIA • COLOMBIA 🇨🇴</text>
-      <text x="0" y="24" fill="#082f49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">Desarrollo de Videojuegos • Computación Gráfica 3D • Inteligencia Artificial Aplicada</text>
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.97;0.98;0.99;0.999;1" dur="14s" repeatCount="indefinite" />
+      <text x="0" y="0" fill="#38bdf8" font-family="'SF Mono', Monaco, Menlo, Consolas, monospace" font-size="13.5" font-weight="500">
+        🎓 Ingeniería en Multimedia • Colombia 🇨🇴
+      </text>
     </g>
 
-    <!-- Slide 2: Game Dev Focus -->
+    <!-- Slide 2: Game Dev -->
     <g opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.24;0.26;0.48;0.51;0.98;0.99;1" dur="15s" repeatCount="indefinite" />
-      <text x="0" y="0" fill="#ffffff" font-family="'SF Mono', Monaco, Menlo, monospace" font-size="14" font-weight="800" letter-spacing="0.5">🎮 VIDEO GAME DEVELOPMENT &amp; REAL-TIME 3D</text>
-      <text x="0" y="24" fill="#082f49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">Unreal Engine • Unity • C++ &amp; C# • Autodesk Maya • Shaders &amp; Mecánicas Interactivas</text>
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;0.24;0.26;0.48;0.51;0.98;0.99;1" dur="14s" repeatCount="indefinite" />
+      <text x="0" y="0" fill="#38bdf8" font-family="'SF Mono', Monaco, Menlo, Consolas, monospace" font-size="13.5" font-weight="500">
+        🎮 Video Game Development • Unreal Engine &amp; Unity (C++ / C#)
+      </text>
     </g>
 
-    <!-- Slide 3: AI & Deep Learning -->
+    <!-- Slide 3: Computer Graphics & AI -->
     <g opacity="0">
-      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.49;0.51;0.73;0.76;0.98;0.99;1" dur="15s" repeatCount="indefinite" />
-      <text x="0" y="0" fill="#ffffff" font-family="'SF Mono', Monaco, Menlo, monospace" font-size="14" font-weight="800" letter-spacing="0.5">🧠 DEEP LEARNING &amp; MULTIMEDIA AI</text>
-      <text x="0" y="24" fill="#082f49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">Reconocimiento Acústico (CNN &amp; RNN) • Espectrogramas de Audio • Modelos NLP con TensorFlow</text>
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.49;0.51;0.73;0.76;0.98;0.99;1" dur="14s" repeatCount="indefinite" />
+      <text x="0" y="0" fill="#38bdf8" font-family="'SF Mono', Monaco, Menlo, Consolas, monospace" font-size="13.5" font-weight="500">
+        📐 Computación Gráfica 3D (Three.js) &amp; Deep Learning Aplicado
+      </text>
     </g>
 
-    <!-- Slide 4: Active Development / Snake Game -->
+    <!-- Slide 4: Active Snake Project -->
     <g opacity="0">
-      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.74;0.75;0.76;0.77;0.97;0.99;1" dur="15s" repeatCount="indefinite" />
-      <text x="0" y="0" fill="#ffffff" font-family="'SF Mono', Monaco, Menlo, monospace" font-size="14" font-weight="800" letter-spacing="0.5">🚀 EN DESARROLLO ACTIVO: VIDEOJUEGO SNAKE</text>
-      <text x="0" y="24" fill="#082f49" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14">Construyendo videojuego interactivo • Nuevos proyectos y lanzamientos próximamente 🎮</text>
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;0.74;0.75;0.76;0.77;0.97;0.99;1" dur="14s" repeatCount="indefinite" />
+      <text x="0" y="0" fill="#34d399" font-family="'SF Mono', Monaco, Menlo, Consolas, monospace" font-size="13.5" font-weight="500">
+        🚀 Proyecto en desarrollo: Videojuego Snake 3D interactivo
+      </text>
     </g>
+  </g>
 
+  <!-- Right Decorative Minimalist Vector Controller Line Art -->
+  <g transform="translate(730, 48) scale(1.6)" stroke="#38bdf8" stroke-opacity="0.35" fill="none" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 6a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v4a2 2 0 0 1-3.6 1.2L12.5 9h-3L7.6 11.2A2 2 0 0 1 4 10V6z"/>
+    <path d="M5.5 6v2m-1-1h2m9 0h.01m-1.5-1h.01m0 2h.01m-1.5-1h.01"/>
+    <circle cx="8" cy="11.5" r="1.2" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <circle cx="14" cy="11.5" r="1.2" stroke="#38bdf8" stroke-opacity="0.25"/>
   </g>
 </svg>
