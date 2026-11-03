@@ -81,7 +81,7 @@ Me apasiona desarrollar soluciones de software integrales combinando **Inteligen
         Plataforma interactiva con Inteligencia Artificial para el <b>reconocimiento y clasificación de patrones acústicos e instrumentos musicales</b> utilizando redes neuronales convolucionales y recurrentes. Interfaz vanguardista con Web Audio API.
       </p>
       <p align="center">
-        <a href="https://github.com/Jlpineda12/melodia-machineLearning-project"><b>Ver Repositorio →</b></a>
+        <a href="https://github.com/Jlpineda12/melodia-ai"><b>Ver Repositorio →</b></a>
       </p>
     </td>
     <td width="50%">
@@ -109,8 +109,8 @@ Me apasiona desarrollar soluciones de software integrales combinando **Inteligen
         Sistema integral de <b>predicción y generación de texto en tiempo real</b> mediante Deep Learning. Integra un backend en Flask procesando secuencias tokenizadas y un cliente web con estilo Glassmorphism y Tailwind CSS.
       </p>
       <p align="center">
-        <a href="https://github.com/Jlpineda12/backend-predictor"><b>Backend API</b></a> • 
-        <a href="https://github.com/Jlpineda12/predictor_test"><b>Frontend Web</b></a>
+        <a href="https://github.com/Jlpineda12/neurotext-api"><b>Backend API</b></a> • 
+        <a href="https://github.com/Jlpineda12/neurotext-web"><b>Frontend Web</b></a>
       </p>
     </td>
     <td width="50%">
@@ -123,7 +123,7 @@ Me apasiona desarrollar soluciones de software integrales combinando **Inteligen
         Investigación y benchmarking de arquitecturas de <b>Redes Neuronales Recurrentes</b> (MLP vs. LSTM vs. Bi-LSTM con Batch Normalization y Dropout Recurrente) para predicción climática de secuencias multivariables.
       </p>
       <p align="center">
-        <a href="https://github.com/Jlpineda12/Homework6"><b>Ver Experimento →</b></a>
+        <a href="https://github.com/Jlpineda12/deep-learning-time-series"><b>Ver Experimento →</b></a>
       </p>
     </td>
   </tr>
