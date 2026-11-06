@@ -132,7 +132,7 @@ Código: [arcade-station](https://github.com/Jlpineda12/arcade-station) · [snak
 
 ¿Juegos web, experiencias 3D o IA multimedia? **Hablemos.**
 
-<a href="mailto:joseluispinead177@gmail.com"><img src="https://img.shields.io/badge/EMAIL-ESCRÍBEME-ff2e88?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0221" alt="Email" /></a>
+<a href="mailto:joseluispineda177@gmail.com"><img src="https://img.shields.io/badge/EMAIL-ESCRÍBEME-ff2e88?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0221" alt="Email" /></a>
 <a href="https://github.com/Jlpineda12"><img src="https://img.shields.io/badge/GITHUB-@JLPINEDA12-00f5d4?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0221" alt="GitHub" /></a>
 <a href="https://jlpineda12.github.io/arcade-station/"><img src="https://img.shields.io/badge/ARCADE-JUGAR%20AHORA-fda415?style=for-the-badge&logo=itchdotio&logoColor=white&labelColor=0d0221" alt="Arcade" /></a>
 
