@@ -440,6 +440,148 @@ def floppy(slug, title, lines, tech, color, label_no):
 
 
 # ---------------------------------------------------------------------------
+# 4B. FEATURED HERO CARD — KART WARS · COPA COLOMBIA
+# ---------------------------------------------------------------------------
+def featured_kartwars():
+    W, H = 900, 256
+    GOLD, BLUE_CO, RED_CO = '#ffc726', '#1e6bff', '#ff2e38'
+    px, py, pw, ph = 24, 38, 368, 194
+    pods = []
+    for i in range(5):
+        cx = px + 114 + i * 35
+        t_on = (i + 1) * 0.10
+        pods.append(
+            f'<rect x="{cx-11}" y="{py+12}" width="22" height="32" rx="4" fill="#070a14" stroke="#2a3556"/>'
+            f'<circle cx="{cx}" cy="{py+21}" r="5" fill="#22080c"/>'
+            f'<circle cx="{cx}" cy="{py+34}" r="5.5" fill="#22080c"/>'
+            f'<circle cx="{cx}" cy="{py+34}" r="5.5" fill="{RED_CO}" filter="url(#kwg)" opacity="0">'
+            f'<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;{t_on:.2f};{t_on+0.02:.2f};0.68;0.70;1" dur="6s" repeatCount="indefinite"/></circle>'
+            f'<circle cx="{cx}" cy="{py+21}" r="5" fill="{LIME}" filter="url(#kwg)" opacity="0">'
+            f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.69;0.71;0.93;1" dur="6s" repeatCount="indefinite"/></circle>'
+        )
+
+    tyres = []
+    for idx, (code, col, lbl) in enumerate([('S', RED_CO, 'SOFT +5%'), ('M', GOLD, 'MEDIUM'), ('H', '#f2f5fa', 'HARD 1-STOP')]):
+        tx = 424 + idx * 148
+        tyres.append(
+            f'<g transform="translate({tx}, 186)">'
+            f'<rect x="0" y="0" width="136" height="30" rx="6" fill="#0d0818" stroke="{col}" stroke-width="1.5"/>'
+            f'<circle cx="18" cy="15" r="9" fill="none" stroke="{col}" stroke-width="3" stroke-dasharray="42 14">'
+            f'<animateTransform attributeName="transform" type="rotate" from="0 18 15" to="360 18 15" dur="2.4s" repeatCount="indefinite"/></circle>'
+            f'<text x="18" y="18" class="px" font-size="7" fill="{col}" text-anchor="middle">{code}</text>'
+            f'<text x="36" y="20" class="vt" font-size="18" fill="#eafffb">{lbl}</text>'
+            f'</g>'
+        )
+
+    body = f'''<defs>
+  {glow_filter('kwg', 2.8)}
+  <linearGradient id="kwbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#140826"/><stop offset="0.5" stop-color="#0b0618"/><stop offset="1" stop-color="#1c0b2b"/>
+  </linearGradient>
+  <linearGradient id="kwsky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#12072b"/><stop offset="0.55" stop-color="#3b1254"/><stop offset="1" stop-color="#ff7b3a"/>
+  </linearGradient>
+  <linearGradient id="kwtr" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="{GOLD}"/><stop offset="0.5" stop-color="{GOLD}"/>
+    <stop offset="0.5" stop-color="{BLUE_CO}"/><stop offset="0.75" stop-color="{BLUE_CO}"/>
+    <stop offset="0.75" stop-color="{RED_CO}"/><stop offset="1" stop-color="{RED_CO}"/>
+  </linearGradient>
+  <clipPath id="kwpv"><rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="10"/></clipPath>
+</defs>
+<rect x="3" y="3" width="{W-6}" height="{H-6}" rx="14" fill="url(#kwbg)" stroke="{GOLD}" stroke-width="2.5"/>
+<rect x="6" y="5" width="{W-12}" height="6" rx="3" fill="url(#kwtr)"/>
+
+<!-- Top banner pill -->
+<text x="26" y="27" class="px" font-size="9" fill="{GOLD}" filter="url(#kwg)">★ PROYECTO DESTACADO · LANZAMIENTO 2026</text>
+<text x="{W-24}" y="27" class="px" font-size="8" fill="{CYAN}" text-anchor="end">UNITY 6.6 URP · BLENDER 5.2 · NETCODE 10P</text>
+
+<!-- LEFT ANIMATED GAMEPLAY VIEWPORT -->
+<rect x="{px-2}" y="{py-2}" width="{pw+4}" height="{ph+4}" rx="11" fill="none" stroke="{CYAN}" stroke-width="2"/>
+<g clip-path="url(#kwpv)">
+  <rect x="{px}" y="{py}" width="{pw}" height="{ph}" fill="url(#kwsky)"/>
+  <!-- Sun & Colombian Mountains (Piedra del Peñol + Nevado del Ruiz) -->
+  <circle cx="{px+280}" cy="{py+105}" r="36" fill="#ffe66d" opacity="0.85"/>
+  <!-- El Peñol monolith on left -->
+  <path d="M{px+28} {py+118} Q{px+34} {py+58} {px+58} {py+58} Q{px+82} {py+58} {px+88} {py+118} Z" fill="#231338" stroke="#ffc726" stroke-width="1"/>
+  <path d="M{px+56} {py+62} L{px+62} {py+68} L{px+54} {py+74} L{px+62} {py+80} L{px+54} {py+86} L{px+62} {py+94} L{px+56} {py+116}" fill="none" stroke="#ffc726" stroke-width="1.5"/>
+  <!-- Nevado del Ruiz volcano on right -->
+  <polygon points="{px+230},{py+118} {px+288},{py+68} {px+312},{py+68} {px+375},{py+118}" fill="#2b1544"/>
+  <polygon points="{px+276},{py+78} {px+288},{py+68} {px+312},{py+68} {px+324},{py+78} {px+308},{py+82} {px+292},{py+79}" fill="#ffffff"/>
+
+  <!-- Road & perspective grid -->
+  <rect x="{px}" y="{py+118}" width="{pw}" height="{ph-118}" fill="#120c24"/>
+  {grid_floor(pw + px, py + 118, py + ph, px + pw // 2, color_v=GOLD, color_h=CYAN, n_h=6, dur=1.2)}
+  <!-- Tricolor kerb line -->
+  <rect x="{px}" y="{py+117}" width="{pw}" height="3" fill="url(#kwtr)"/>
+
+  <!-- F1 5-Pod Start Gantry -->
+  <rect x="{px+84}" y="{py+24}" width="200" height="4" fill="#2a3556"/>
+  {''.join(pods)}
+
+  <!-- Animated Kart 1: Chiva Rumbera (Tricolor) + Azulito -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="{px+44} {py+148}; {px+74} {py+144}; {px+44} {py+148}" dur="2.6s" repeatCount="indefinite"/>
+    <!-- Purple turbo sparks -->
+    <circle cx="-8" cy="20" r="5" fill="#c53bff" filter="url(#kwg)">
+      <animate attributeName="r" values="3;7;3" dur="0.22s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-16" cy="16" r="3.5" fill="{CYAN}"/>
+    <rect x="0" y="8" width="52" height="14" rx="3" fill="{BLUE_CO}" stroke="#000" stroke-width="1.5"/>
+    <rect x="4" y="8" width="44" height="5" fill="{GOLD}"/>
+    <rect x="4" y="17" width="44" height="4" fill="{RED_CO}"/>
+    <rect x="6" y="-2" width="36" height="3" fill="#d48b3b" stroke="#000" stroke-width="1"/>
+    <line x1="9" y1="1" x2="9" y2="8" stroke="#d48b3b" stroke-width="2"/>
+    <line x1="39" y1="1" x2="39" y2="8" stroke="#d48b3b" stroke-width="2"/>
+    <circle cx="26" cy="4" r="6" fill="#4da6ff" stroke="#000" stroke-width="1.5"/>
+    <circle cx="11" cy="22" r="5.5" fill="#111" stroke="#fff" stroke-width="1.5"/>
+    <circle cx="41" cy="22" r="5.5" fill="#111" stroke="#fff" stroke-width="1.5"/>
+  </g>
+
+  <!-- Animated Homing Red Shell -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="{px+110} {py+160}; {px+210} {py+152}; {px+110} {py+160}" dur="1.4s" repeatCount="indefinite"/>
+    <circle cx="0" cy="0" r="6" fill="{RED_CO}" stroke="#fff" stroke-width="1.2" filter="url(#kwg)"/>
+  </g>
+
+  <!-- Animated Kart 2: El Dorado Muisca (Gold) + Dorado w/ Sombrero Vueltiao -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="{px+220} {py+142}; {px+252} {py+147}; {px+220} {py+142}" dur="2.2s" repeatCount="indefinite"/>
+    <circle cx="-10" cy="20" r="5.5" fill="{GOLD}" filter="url(#kwg)">
+      <animate attributeName="r" values="3;8;3" dur="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="9" width="54" height="13" rx="4" fill="{GOLD}" stroke="#000" stroke-width="1.5"/>
+    <rect x="-5" y="3" width="12" height="8" rx="2" fill="{GOLD}" stroke="#000" stroke-width="1"/>
+    <circle cx="26" cy="4" r="6.5" fill="{GOLD}" stroke="#000" stroke-width="1.5"/>
+    <ellipse cx="26" cy="-2" rx="13" ry="2.8" fill="#d4a359" stroke="#000" stroke-width="1"/>
+    <circle cx="11" cy="22" r="5.5" fill="#111" stroke="{CYAN}" stroke-width="1.5"/>
+    <circle cx="43" cy="22" r="5.5" fill="#111" stroke="{CYAN}" stroke-width="1.5"/>
+  </g>
+
+  <!-- HUD overlay inside viewport -->
+  <text x="{px+12}" y="{py+184}" class="px" font-size="8" fill="{GOLD}">P1 DORADO · LAP 3/3</text>
+  <text x="{px+pw-12}" y="{py+184}" class="px" font-size="8" fill="{LIME}" text-anchor="end">FLOW x10 MAX</text>
+</g>
+{scanlines(W, H, 'kwscan')}
+
+<!-- RIGHT INFO & TELEMETRY PANEL -->
+<text x="424" y="64" class="px" font-size="20" fill="#ffffff" filter="url(#kwg)">KART WARS <tspan fill="{GOLD}">🇨🇴</tspan></text>
+<text x="424" y="86" class="px" font-size="10" fill="{GOLD}">COPA COLOMBIA · ARCADE COMBAT &amp; F1 STRATEGY</text>
+
+<text x="424" y="114" class="vt" font-size="21" fill="#e5d9f2">• Mario Kart 8 drift (3 turbos) + Estrategia F1 (Pirelli S/M/H, Pits QTE, VSC)</text>
+<text x="424" y="137" class="vt" font-size="21" fill="#e5d9f2">• 10 circuitos de Colombia (2.8 km, 4 actos, tramo subacuático y salto 85m)</text>
+<text x="424" y="160" class="vt" font-size="21" fill="#e5d9f2">• 15 karts/motos culturales + 10 pilotos PEAK · Split-Screen 4P &amp; Online 10P</text>
+
+<!-- Pirelli Tyre Compound Badges -->
+{''.join(tyres)}
+
+<!-- Bottom Call to Action -->
+<text x="424" y="238" class="px" font-size="9" fill="{LIME}" filter="url(#kwg)">▶ CLICK PARA VER REPO &amp; DESCARGAR BUILDS (WINDOWS / MAC)
+  <animate attributeName="opacity" values="1;0.2;1" dur="1.3s" repeatCount="indefinite"/>
+</text>'''
+    write('feat-kartwars.svg', svg(W, H, body, title='Kart Wars · Copa Colombia — Proyecto Destacado'))
+
+
+# ---------------------------------------------------------------------------
 # 5. FOOTER ticker
 # ---------------------------------------------------------------------------
 def footer():
@@ -464,7 +606,9 @@ def footer():
 if __name__ == '__main__':
     print('Generando assets retro…')
     hero()
+    featured_kartwars()
     for slug, label, color, icon in [
+        ('featured', 'PROYECTO_DESTACADO', '#ffc726', '★'),
         ('about', 'SOBRE_MI', CYAN, '?'), ('arcade', 'ARCADE_STATION', AMBER, '▶'),
         ('projects', 'PROYECTOS', PINK, '#'), ('stack', 'STACK', VIOLET, '$'),
         ('stats', 'STATS', LIME, '▲'), ('contact', 'CONTACTO', CYAN, '@')]:
@@ -475,6 +619,7 @@ if __name__ == '__main__':
     cartridge('space', 'PIXEL SPACE', 'RETRO INVADERS · 1984', AMBER, dict(num='#3', svg=scene_space))
     cartridge('breaker', 'PIXEL BREAKER', 'RETRO ARKANOID · 1986', '#ff758f', dict(num='#4', svg=scene_breaker))
     cartridge('maze', 'PIXEL MAZE', 'PAC-CHASER · 1980', '#fee440', dict(num='#5', svg=scene_maze))
+    floppy('kartwars', 'KART WARS 3D', ['Mario Kart + Estrategia F1 en', '10 circuitos de Colombia (10P)'], 'Unity 6.6 · C# · Blender 5.2', '#ffc726', '★:')
     floppy('lingopulse', 'LINGOPULSE', ['Inglés gamificado con mascota', '3D en tiempo real (A1–C2)'], 'Expo · React Native · Three.js', CYAN, 'A:')
     floppy('melodia', 'MELODIA AI', ['Clasifica instrumentos con', 'CNN + RNN sobre espectrogramas'], 'TensorFlow · Librosa · Web Audio', PINK, 'B:')
     floppy('neurotext', 'NEUROTEXT AI', ['Predicción de texto secuencial', 'API Flask + cliente web'], 'Keras · Flask · Tailwind', VIOLET, 'C:')

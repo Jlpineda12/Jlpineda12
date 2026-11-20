@@ -4,8 +4,20 @@
 
 <a href="https://github.com/Jlpineda12"><img src="https://komarev.com/ghpvc/?username=Jlpineda12&color=ff2e88&style=for-the-badge&label=VISITANTES&abbreviated=true" alt="Contador de visitas" /></a>
 <a href="https://github.com/Jlpineda12?tab=followers"><img src="https://img.shields.io/github/followers/Jlpineda12?label=SEGUIDORES&style=for-the-badge&color=00f5d4&labelColor=0d0221" alt="Seguidores" /></a>
+<a href="https://github.com/Jlpineda12/kart-wars"><img src="https://img.shields.io/badge/🏎️%20KART%20WARS-COPA%20COLOMBIA-ffc726?style=for-the-badge&labelColor=0d0221" alt="Kart Wars Copa Colombia" /></a>
 <a href="https://jlpineda12.github.io/arcade-station/"><img src="https://img.shields.io/badge/▶%20INSERT%20COIN-JUGAR%20ARCADE-fda415?style=for-the-badge&labelColor=0d0221" alt="Jugar Arcade Station" /></a>
 
+</div>
+
+<img src="./assets/retro/h-featured.svg" alt="Proyecto Destacado — Kart Wars Copa Colombia" width="100%" />
+
+<div align="center">
+  <a href="https://github.com/Jlpineda12/kart-wars"><img src="./assets/retro/feat-kartwars.svg" width="100%" alt="Kart Wars · Copa Colombia — Arcade Combat & F1 Strategy en 10 circuitos de Colombia" /></a>
+  <br/><br/>
+  <a href="https://github.com/Jlpineda12/kart-wars/releases/download/v1.0.0/KartWars-Windows.zip"><img src="https://img.shields.io/badge/⬇%20WINDOWS%20(.ZIP)-DESCARGAR%20JUEGO-ffc726?style=for-the-badge&logo=windows&logoColor=white&labelColor=0d0221" alt="Descargar para Windows" /></a>
+  <a href="https://github.com/Jlpineda12/kart-wars/releases/download/v1.0.0/KartWars-Mac.zip"><img src="https://img.shields.io/badge/⬇%20MACOS%20(.ZIP)-DESCARGAR%20JUEGO-1e6bff?style=for-the-badge&logo=apple&logoColor=white&labelColor=0d0221" alt="Descargar para macOS" /></a>
+  <a href="https://jlpineda12.github.io/kart-wars/"><img src="https://img.shields.io/badge/🌐%20PORTAL%20WEB-VER%20SHOWCASE-ff2e38?style=for-the-badge&labelColor=0d0221" alt="Portal Web Kart Wars" /></a>
+  <a href="https://github.com/Jlpineda12/kart-wars"><img src="https://img.shields.io/badge/💻%20REPOSITORIO-CÓDIGO%20FUENTE-00f5d4?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0221" alt="Repositorio Kart Wars" /></a>
 </div>
 
 <img src="./assets/retro/h-about.svg" alt="Sobre mí" width="100%" />
@@ -13,9 +25,10 @@
 ```js
 const jose = {
   rol:        "Ingeniero en Multimedia · Colombia 🇨🇴",
-  construyo:  ["juegos web retro", "experiencias 3D", "IA aplicada a audio y lenguaje"],
-  enfoque:    "Vanilla JS, Canvas y Web Audio API: cero dependencias, todo hecho a mano",
-  motores:    ["Unity (C#)", "Unreal Engine (C++)", "Three.js / WebGL"],
+  construyo:  ["videojuegos 3D", "juegos web retro", "experiencias interactivas e IA"],
+  enfoque:    "Unity 6, Blender 5.2 procedural, Three.js, Canvas y Web Audio API",
+  motores:    ["Unity 6 (C# · URP · Netcode)", "Blender 5.2 (Python)", "Unreal Engine (C++)", "Three.js / WebGL"],
+  destacado:  "Kart Wars · Copa Colombia → Mario Kart + Estrategia F1 en 10 circuitos de Colombia",
   ahora:      "Arcade Station → 5 juegos retro con música chiptune procedural",
 };
 ```
@@ -24,7 +37,8 @@ const jose = {
 <summary><b>📂 Ver más sobre mí</b> (clic para abrir)</summary>
 <br>
 
-- 🎮 **Videojuegos y 3D** — Creador de [**LingoPulse**](https://github.com/Jlpineda12/lingopulse), simulador de inglés gamificado con mascota 3D en tiempo real (`expo-gl` / Three.js). Mecánicas y shaders en **Unreal** y **Unity**, modelado en **Autodesk Maya**.
+- 🏎️ **Kart Wars · Copa Colombia** — Creador de [**Kart Wars**](https://github.com/Jlpineda12/kart-wars), juego de carreras arcade y estrategia F1 en **Unity 6.6 URP** y **Blender 5.2** con 10 circuitos de Colombia (2.8 km), 15 karts/motos culturales, 10 pilotos PEAK, desgaste de neumáticos Pirelli, paradas en boxes QTE, pantalla dividida 2–4P y multijugador Online/LAN para 10 jugadores.
+- 🎮 **Videojuegos y 3D** — Creador de [**LingoPulse**](https://github.com/Jlpineda12/lingopulse), simulador de inglés gamificado con mascota 3D en tiempo real (`expo-gl` / Three.js). Mecánicas y shaders en **Unreal** y **Unity**, modelado en **Blender** y **Autodesk Maya**.
 - 📐 **Computación gráfica** — Matemática espacial 3D, transformaciones matriciales, proyecciones de cámara y renderizado WebGL con **Three.js**.
 - 🧠 **IA en multimedia** — Redes CNN, RNN y LSTM para reconocimiento acústico ([Melodía AI](https://github.com/Jlpineda12/melodia-ai)) y predicción de lenguaje con TensorFlow.
 - 🕹️ **Web retro** — Todos mis juegos arcade corren en el navegador sin frameworks ni archivos de audio: la música se sintetiza en tiempo real.
@@ -64,6 +78,7 @@ Código: [arcade-station](https://github.com/Jlpineda12/arcade-station) · [snak
 <img src="./assets/retro/h-projects.svg" alt="Proyectos" width="100%" />
 
 <div align="center">
+  <a href="https://github.com/Jlpineda12/kart-wars"><img src="./assets/retro/disk-kartwars.svg" width="48%" alt="Kart Wars · Copa Colombia" /></a>
   <a href="https://github.com/Jlpineda12/lingopulse"><img src="./assets/retro/disk-lingopulse.svg" width="48%" alt="LingoPulse" /></a>
   <a href="https://github.com/Jlpineda12/melodia-ai"><img src="./assets/retro/disk-melodia.svg" width="48%" alt="Melodía AI" /></a>
   <a href="https://github.com/Jlpineda12/neurotext-api"><img src="./assets/retro/disk-neurotext.svg" width="48%" alt="NeuroText AI" /></a>
